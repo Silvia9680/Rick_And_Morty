@@ -1,14 +1,16 @@
 <template>
   <div>
   <h1>Rick And Morty</h1>
+  <ListCharacters />
   </div>
 </template>
 
 <script>
-
+import ListCharacters from './components/ListCharacters.vue';
 export default {
-  name: 'App'
-  }
+    name: 'App',
+    components: { ListCharacters }
+}
    
 
 </script>
